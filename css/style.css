@@ -8,15 +8,25 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0 130px;
+    width: 900px;
+    margin: 0 auto;
 }
 
 img {
-    width: 100%;
+    width: 30%;
 }
 
 /*** utilities ***/
 
+.float-left {
+    float: left;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: inherit;
+}
 
 /*** content ***/
 
@@ -38,8 +48,35 @@ header p {
 
 /* main */
 .contenitore {
-    border: 3px solid black;
+    width: 900px;
+    margin: 0 auto;
 }
+
+#card {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    background-color: #0f0e17;
+}
+
+#didascalia {
+    width: auto;
+    font-size: 10px;
+    color: white;
+    padding: 11px 0 11px 17px;
+    line-height: 20px;
+}
+
+#didascalia h1 {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+a {
+    font-size: 10px;
+    color: #44aade;
+}
+
+
 
 
 /* end main */
