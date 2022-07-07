@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0 130px;
 }
 
 img {
@@ -22,7 +23,23 @@ img {
 /* header */
 header {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    margin: 30px auto 40px;
+    color: #e43270;
+}
+
+header p {
+    margin-bottom: 30px;
 }
 
 /* end header */
+
+/* main */
+.contenitore {
+    border: 3px solid black;
+}
+
+
+/* end main */
