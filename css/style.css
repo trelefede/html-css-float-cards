@@ -22,10 +22,10 @@ img {
     float: left;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
-    clear: inherit;
+    clear: both;
 }
 
 /*** content ***/
